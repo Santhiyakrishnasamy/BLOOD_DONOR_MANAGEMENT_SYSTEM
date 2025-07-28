@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Blood Donor Management</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="dashboard">
+    <h1>Donor Management Dashboard</h1>
+
+    <!-- Donor Registration Form -->
+    <div class="form-section">
+      <h2>Register Donor</h2>
+      <form id="donorForm">
+        <input type="text" id="donorName" placeholder="Name" required>
+        <input type="text" id="donorBlood" placeholder="Blood Group" required>
+        <input type="email" id="donorEmail" placeholder="Email" required>
+        <input type="text" id="donorPhone" placeholder="Phone Number" required>
+        <input type="text" id="donorDistrict" placeholder="District" required>
+        <button type="submit" class="btn">Add Donor</button>
+      </form>
+      <p id="registerMessage" class="message"></p>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="search-section">
+      <h2>Search Donor</h2>
+      <input type="text" id="searchInput" placeholder="Search by name, blood group, or district">
+      <button onclick="searchDonor()" class="btn">Search</button>
+      <p id="searchMessage" class="message"></p>
+    </div>
+
+    <!-- Donor List -->
+    <div class="list-section">
+      <h2>Registered Donors</h2>
+      <ul id="donorList"></ul>
+    </div>
+  </div>
+  <script src="blood.js"></script>
+</body>
+</html>

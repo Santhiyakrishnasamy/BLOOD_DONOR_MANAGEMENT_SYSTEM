@@ -1,0 +1,90 @@
+/* 🌟 GENERAL STYLING */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* 🌟 WELCOME PAGE BACKGROUND */
+.index-bg {
+  background: #e0f7fa; /* mild blue */
+}
+
+/* 🌟 LOGO */
+.logo {
+  width: 130px;
+  margin-top: 40px;
+}
+
+/* 🌟 HEADINGS */
+h1, h2 {
+  color: #b30000;
+}
+
+.tagline {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* 🌟 BUTTON */
+.btn {
+  background: #b30000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background: #800000;
+}
+
+/* 🌟 INPUT FIELDS */
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* 🌟 CONTAINERS */
+.welcome-container, .login-container, .dashboard {
+  margin-top: 50px;
+}
+
+.form-section, .search-section, .list-section {
+  margin: 20px;
+  padding: 20px;
+  background: #ffe6e6;
+  border-radius: 10px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 🌟 LIST */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* 🌟 MESSAGES */
+.message {
+  font-weight: bold;
+  color: green;
+  margin-top: 10px;
+}
